@@ -1,11 +1,11 @@
-package com.github.lc.oss.commons.validation;
+package io.github.lc.oss.commons.validation;
 
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Pattern;
 
-import com.github.lc.oss.commons.serialization.Message;
+import io.github.lc.oss.commons.serialization.Message;
 
 public abstract class AbstractValidator<Type> implements Validator<Type> {
 

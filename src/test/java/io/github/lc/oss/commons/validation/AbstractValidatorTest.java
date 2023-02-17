@@ -1,4 +1,4 @@
-package com.github.lc.oss.commons.validation;
+package io.github.lc.oss.commons.validation;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,9 +10,9 @@ import java.util.regex.Pattern;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import com.github.lc.oss.commons.serialization.JsonMessage;
-import com.github.lc.oss.commons.serialization.Message;
-import com.github.lc.oss.commons.serialization.Message.Category;
+import io.github.lc.oss.commons.serialization.JsonMessage;
+import io.github.lc.oss.commons.serialization.Message;
+import io.github.lc.oss.commons.serialization.Message.Category;
 
 public class AbstractValidatorTest {
     public enum Categories implements Category {
