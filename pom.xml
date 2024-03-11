@@ -12,7 +12,7 @@
     <version>1.0.10</version>
     <name>${project.artifactId}</name>
     <description>A standardized validation framework</description>
-    <url>https://github.com/locke-chappel/oss-commons-validation</url>
+    <url>https://github.com/locke-chappel/oss-java-commons-validation</url>
 
     <licenses>
         <license>
